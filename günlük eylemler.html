@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rastgele İfade</title>
+</head>
+<body>
+    <h1>Rastgele İfade Gösterme</h1>
+    <button onclick="rastgeleYaz()">buton</button>
+
+    <script>
+        // String ifadelerden oluşan bir array
+        const ifadeler = ["Merhaba!", "Nasılsınız?", "Bugün hava çok güzel.", "Javascript öğreniyorum.", "Kod yazmak eğlenceli!"];
+
+        // Rastgele bir ifade seçip konsola yazdıran fonksiyon
+        function rastgeleYaz() {
+            const rastgeleIndex = Math.floor(Math.random() * ifadeler.length); // Rastgele bir index seç
+            console.log(ifadeler[rastgeleIndex]); // Seçilen ifadeyi konsola yazdır
+        }
+    </script>
+</body>
+</html>
