@@ -1,5 +1,42 @@
 
-div#header {
+.topics  {
+    display: flex;
+    flex-direction: row;
+
+text-decoration: none;
+}
+
+div.search {
+    display: flex;
+    flex-direction: row;
+}
+
+#bell {
+    width:70%;
+height:auto
+}
+
+#circle {
+    width: 70%;
+    height:auto
+}
+
+
+#movie-name {
+    display: flex;
+ 
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+.header {
    display:flex;
    flex-direction: row;
     border:2px solid black;
@@ -11,7 +48,7 @@ gap:100px;
 
 }
 
-div#main {
+div.main {
     border: 2px solid black;
     width: 30%;
 padding-right: 100%;
@@ -21,27 +58,27 @@ padding-right: 100%;
 }
 
 
-div#section {
+div.section {
 border:2px solid black;
 width:20px;
 padding-right: 100%;
 }
 
 
-div#section2 {
+div.section2 {
     border:2px solid black;
     width:20px;
     padding-right: 100%;
     }
 
 
-div#space {
+div.space {
 width:10%;
 border: 2x solid black
 }
 
 
-    div#footer {
+    div.footer {
     width:10%;
 display: flex;
 flex-direction: row;
@@ -57,5 +94,76 @@ padding-right: 100%;
 
     .logo {
     border:1px solid black;
+padding:2px 40px;
+}
+
+.imdb {
+    display: flex;
+    flex-direction: row;
+gap:20px;
+}
+
+.lorem {
+    padding-right: 50%;
+}
+
+.paragraph {
+
+border-right: 20px;
+margin-left: 20px;
+
+
+border: 2px solid black;
+
 
 }
+
+.li {
+    color:red;
+}
+
+.span {
+    color:black;
+}
+
+.button2 {
+    background-color: red;
+border-radius: 7px;
+width: 100px;
+color:white;
+height: 50px;
+margin-left: 20px;
+}
+
+.footer2 {
+display: flex;
+flex-direction: row;
+
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.display {
+    display: flex;
+    border:1px solid black;
+}
+
+
+
