@@ -1,4 +1,61 @@
-.logo {
+
+div#header {
+   display:flex;
+   flex-direction: row;
+    border:2px solid black;
+    width: 10%;
+padding-right: 100%;
+gap:100px;
+
+
+
+}
+
+div#main {
+    border: 2px solid black;
+    width: 30%;
+padding-right: 100%;
+
+
+
+}
+
+
+div#section {
+border:2px solid black;
+width:20px;
+padding-right: 100%;
+}
+
+
+div#section2 {
+    border:2px solid black;
+    width:20px;
+    padding-right: 100%;
+    }
+
+
+div#space {
+width:10%;
+border: 2x solid black
+}
+
+
+    div#footer {
+    width:10%;
+display: flex;
+flex-direction: row;
+border: 2px solid black;
+padding-right: 100%;
+}
+
+
+
+
+
+
+
+    .logo {
     border:1px solid black;
 
 }
